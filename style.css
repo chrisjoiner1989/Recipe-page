@@ -43,6 +43,7 @@ h4 {
   font-size: 1.75rem;
   font-weight: 400;
   color: #854632;
+  margin-bottom: 1.75rem;
 }
 
 ul,
@@ -66,7 +67,7 @@ body {
 }
 
 .recipe-title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #302d2c;
 }
 
@@ -74,6 +75,7 @@ body {
   font-size: 1.275rem;
   font-weight: 600;
   color: #7b284f;
+  margin-bottom: 0.5rem;
 }
 
 span {
@@ -87,6 +89,7 @@ span {
 
 li {
   padding-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 li::marker {
@@ -105,5 +108,63 @@ li::marker {
   background: #fff;
   margin: 6rem 0;
   padding: 1.75rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
+}
+
+.recipe-img {
+  border-radius: 0.8rem;
+  margin-bottom: 2.5rem;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+hr {
+  outline: none;
+  border: none;
+  height: 1px;
+  background: #e4ded8;
+  margin-top: 2rem;
+}
+
+.prep-time {
+  background: #f3e6d8;
+  padding: 1.75rem;
+  border-radius: 0.8rem;
+  margin-top: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+  border-bottom: 1px solid #e4ded8;
+}
+
+/* media queries */
+@media (max-width: 500px;);
+ {
+  .recipe-wrapper {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .recipe-img {
+    border-radius: 0;
+  }
+
+  .recipe.container {
+    padding: 0 1.75rem;
+  }
+
+  .recipe-title {
+    font-size: 2.2rem;
+  }
 }
