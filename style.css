@@ -64,3 +64,23 @@ body {
   color: #5f574e;
   background-color: #f3e6d8;
 }
+
+.recipe-title {
+  font-size: 2.75rem;
+  color: #302d2c;
+}
+
+.prep-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #7b284f;
+}
+
+span {
+  font-weight: 700;
+}
+
+[data-cell="nutrient-value"] {
+    color: #854632;
+    font-weight: 700;
+}
