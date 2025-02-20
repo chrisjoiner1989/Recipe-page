@@ -1,3 +1,32 @@
+/* fonts */
+@font-face {
+  font-family: "Young Serif";
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/assets/fonts/outfit/Outfit-Regular.ttf);
+}
+/* Global Styles
+color nutmeg: #854632
+color Dark Raspberry: #7b284f
+color white: #fff
+color rose-white: #fff5fa
+color eggshell: #f3e6d8
+color light-grey: #e4ded8
+color wenge-brown: #5f574e
+color dark-charcoal: #302d2c
+
+ff-main: "Outfit", sans-serif
+ff-heading: "Young Serif", serif
+fs-main: 1rem
+fs-heading: 1.75rem
+fw-400
+fw-600
+fw-700
+ */
+
 *::before,
 *::after {
   margin: 0;
@@ -10,6 +39,10 @@ h2,
 h3,
 h4 {
   line-height: 1.2;
+  font-family: "Young Serif", serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #854632;
 }
 
 ul,
@@ -21,7 +54,13 @@ img {
   display: block;
   max-width: 100%;
   font-style: italic;
-  color: var(--clr-Dark-Raspberry);
+  color: #7b284f;
 }
 
-
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #5f574e;
+  background-color: #f3e6d8;
+}
