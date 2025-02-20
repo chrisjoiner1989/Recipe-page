@@ -71,7 +71,7 @@ body {
 }
 
 .prep-title {
-  font-size: 1.5rem;
+  font-size: 1.275rem;
   font-weight: 600;
   color: #7b284f;
 }
@@ -81,6 +81,29 @@ span {
 }
 
 [data-cell="nutrient-value"] {
-    color: #854632;
-    font-weight: 700;
+  color: #854632;
+  font-weight: 700;
+}
+
+li {
+  padding-left: 1rem;
+}
+
+li::marker {
+  color: #854632;
+  font-weight: 600;
+}
+
+/* layout styles */
+.wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.recipe-wrapper {
+  max-width: 45em;
+  background: #fff;
+  margin: 6rem 0;
+  padding: 1.75rem;
+  border-radius: 2rem;
 }
